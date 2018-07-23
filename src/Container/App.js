@@ -20,8 +20,6 @@ class App extends Component {
     this.setState({
       quote: quotes[`${randomID}`]
     });
-
-
   }
 
 
@@ -36,7 +34,6 @@ class App extends Component {
         </div>
         <Quotebox quote={this.state.quote}/>
         <Randomise handleClick={this.handleClick}/>
-
       </div>
     );
   }
